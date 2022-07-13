@@ -1,19 +1,32 @@
 import React from 'react'
-import Video from '../../videos/video.mp4'
+import Image from '../../images/image.jpg'
 import {
   BannerContainer,
+  BannerP,
+  BannerH1,
+  BannerContent,
   BannerBg,
-  VideoBg
+  ImageBg
 } from './BannerElements'
 
 const Banner = () => {
+
   return (
     <BannerContainer>
       <BannerBg>
-        <VideoBg autoPlay loop muter src={Video} type='video/mp4'>
+        <ImageBg autoPlay loop muter src={Image} type='Image/mp4'>
 
-        </VideoBg>
+        </ImageBg>
       </BannerBg>
+      <BannerContent>
+        <BannerH1>My Plumber Mate</BannerH1>
+        <BannerP>
+          If i had to do it all over again, I'd have been a plumber.
+        </BannerP>
+        <BannerP>
+          - Albert Einstein -
+        </BannerP>
+      </BannerContent>
     </BannerContainer>
   )
 }
