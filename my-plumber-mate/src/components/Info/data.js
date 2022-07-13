@@ -9,7 +9,7 @@ export const homeObjOne = {
   buttonLabel: 'Discover',
   imgStart: false,
   img: require('../../images/svg-1.svg').default,
-  alt: 'Car',
+  alt: 'Worker',
   dark: true,
   primary: true,
   darkText: false

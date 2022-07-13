@@ -19,7 +19,7 @@ const Banner = () => {
         </ImageBg>
       </BannerBg>
       <BannerContent>
-        <BannerH1>My Plumber Mate</BannerH1>
+        <BannerH1>Your Local Plumber</BannerH1>
         <BannerP>
           If i had to do it all over again, I'd have been a plumber.
         </BannerP>
