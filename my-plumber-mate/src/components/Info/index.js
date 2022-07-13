@@ -3,8 +3,6 @@ import { useState } from 'react'
 import { Button } from '../Sidebar/buttonElements'
 
 import {
-  ImgWrap,
-  Img,
   InfoContainer,
   InfoWrapper,
   InfoRow,
@@ -16,6 +14,8 @@ import {
   Subtitle,
   ArrowForward,
   ArrowRight,
+  ImgWrap,
+  Img,
   BtnWrap
 } from './InfoElements'
 
