@@ -19,7 +19,7 @@ import {
   BtnWrap
 } from './InfoElements'
 
-const Info = ({lightBg, id, ImgStart, topLine, lightText, darkText, description, buttonLabel, headLine, img, alt, primary, dark1, dark2}) => {
+const Info = ({lightBg, id, ImgStart, topLine, lightText, lightTextDescription, darkText, description, buttonLabel, headLine, img, alt, primary, dark1, dark2}) => {
   const [hover, setHover] = useState(false)
 
   const onHover = () => {
