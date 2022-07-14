@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon1 from '../../images/svg-1.svg'
-// import Icon1 from '../../images/svg-2.svg'
-// import Icon1 from '../../images/svg-3.svg'
+import Icon2 from '../../images/svg-2.svg'
+import Icon3 from '../../images/svg-3.svg'
 import {
   ServicesContainer,
   ServicesH1,
@@ -22,7 +22,7 @@ const Services = () => {
             <ServicesH2>Repair</ServicesH2>
             <ServicesP>We help fix, repair and install your desired equipments.</ServicesP>
           </ServicesCard>
-          {/* <ServicesCard>
+          <ServicesCard>
             <ServicesIcon src={Icon2}/>
             <ServicesH2>Fix</ServicesH2>
             <ServicesP>We help fix, repair and install your desired equipments.</ServicesP>
@@ -31,7 +31,7 @@ const Services = () => {
             <ServicesIcon src={Icon3}/>
             <ServicesH2>Install</ServicesH2>
             <ServicesP>We help fix, repair and install your desired equipments.</ServicesP>
-          </ServicesCard> */}
+          </ServicesCard>
         </ServicesWrapper>
       </ServicesContainer>
   )

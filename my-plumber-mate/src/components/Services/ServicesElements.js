@@ -1,34 +1,34 @@
 import styled from "styled-components";
 
-export const ServicesContainer = styled.div`
-height: 800px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: cennter;
-background: #010606;
 
-@media screen and (max-width: 768px){
-  height: 1100px;
-}
-@media screen and (max-width: 480px){
-  height: 1300px;
-}`
+export const ServicesContainer = styled.div`
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: cennter;
+  background: #010606;
+
+  @media screen and (max-width: 800px){
+    height: 1100px;
+  }
+  @media screen and (max-width: 480px){
+    height: 1300px;
+  }
+`
 
 export const ServicesWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
 
   @media screen and (max-width: 1000px){
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
   }
-  @media screen and (max-width: 768px){
-    grid-template-columns: 1fr;
+  @media screen and (max-width: 800px){
     padding: 0 20px;
   }
 `
@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
   transition: all 0.2sec ease-in-out;
 
   &:hover {
-    tramsform: scale(1.02);
+    transform: scale(1.02);
     transition: all 0.2sec ease-in-out;
     cursor: pointer;
   }
@@ -57,9 +57,10 @@ export const ServicesIcon = styled.img`
 `
 
 export const ServicesH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
-  margin-bottom: 64px;
+  margin-bottom: 20px;
+  text-align: center;
 
   @media screen and (max-width: 480px){
     font-size: 2rem;
@@ -67,8 +68,8 @@ export const ServicesH1 = styled.h1`
 `
 
 export const ServicesH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
 `
 
 export const ServicesP = styled.p`

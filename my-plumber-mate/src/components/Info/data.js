@@ -16,7 +16,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'about',
+  id: 'construction',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
@@ -26,14 +26,14 @@ export const homeObjTwo = {
   buttonLabel: 'Discover',
   imgStart: true,
   img: require('../../images/svg-2.svg').default,
-  alt: 'Worker',
+  alt: 'Construction site',
   dark: true,
   primary: true,
   darkText: true
 }
 
 export const homeObjThree = {
-  id: 'about',
+  id: 'community',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -43,14 +43,14 @@ export const homeObjThree = {
   buttonLabel: 'Discover',
   imgStart: false,
   img: require('../../images/svg-3.svg').default,
-  alt: 'Worker',
+  alt: 'Community',
   dark: true,
   primary: true,
   darkText: false
 }
 
 export const homeObjFour = {
-  id: 'about',
+  id: 'projects',
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
@@ -60,7 +60,7 @@ export const homeObjFour = {
   buttonLabel: 'Discover',
   imgStart: true,
   img: require('../../images/svg-4.svg').default,
-  alt: 'Worker',
+  alt: 'Building',
   dark: true,
   primary: true,
   darkText: true
@@ -68,7 +68,7 @@ export const homeObjFour = {
 
 
 export const homeObjFive = {
-  id: 'about',
+  id: 'material',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -78,7 +78,7 @@ export const homeObjFive = {
   buttonLabel: 'Discover',
   imgStart: false,
   img: require('../../images/svg-5.svg').default,
-  alt: 'Worker',
+  alt: 'Loading boxes',
   dark: true,
   primary: true,
   darkText: false
