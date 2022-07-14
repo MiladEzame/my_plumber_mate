@@ -5,8 +5,8 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-  @media screen and (max-width: 768px){
-    padding: 100px 0;
+  @media screen and (max-width: 768px) {
+    padding: : 100px 0;
   }
 `
 
@@ -26,9 +26,13 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
-  `
 
-  export const Column2 = styled.div`
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+`
+
+export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
@@ -37,10 +41,20 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 `
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 export const ImgWrap = styled.div`
@@ -90,12 +104,13 @@ export const Subtitle = styled.p`
 `
 
 export const InfoRow = styled.div`
-  display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
+  display: flex;
   align-items: center;
+  justify-content: center;
   grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
+    flex-direction: column;
     grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2`)};
   }
 `
